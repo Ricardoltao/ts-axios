@@ -1,4 +1,4 @@
-import { isDate, isObject, isPlainObject } from './util'
+import { isDate, isPlainObject } from './util'
 
 // 希望一些特殊字符不会被转义
 function encode(val: string): string {
